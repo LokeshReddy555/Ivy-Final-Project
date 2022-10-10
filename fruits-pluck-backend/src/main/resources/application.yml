@@ -1,0 +1,14 @@
+fruits:
+  app:
+    jwtExpirationMs: 76300000
+    jwtSecret: knowledgeFactory
+
+spring:
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/ivyprogradtraining
+    password: '5252'
+  jpa:        #adding table automatically
+    hibernate:
+      ddl-auto: update
+    show-sql: true
